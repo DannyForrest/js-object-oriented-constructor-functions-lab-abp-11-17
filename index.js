@@ -13,3 +13,10 @@ function Driver(name, age, experience) {
 }
 
 new Driver("Bob", 43, 4);
+
+function PickupLocation(address, city) {
+  this.address = address;
+  this.city = city;
+}
+
+new PickupLocation("1234 Acorn Lane", "Hollywood");
